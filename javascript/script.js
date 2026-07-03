@@ -4,4 +4,8 @@ for (let i = 0; i < 256; i++) {
     const gridCell = document.createElement("div");
     gridCell.classList.add("gridCell");
     divContainer.appendChild(gridCell);
+
+    gridCell.addEventListener("mouseenter", () => {
+        gridCell.classList.add("gridColor");
+    })
 };
