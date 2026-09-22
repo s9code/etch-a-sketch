@@ -1,7 +1,10 @@
+// VARIABLES
+
 const divContainer = document.querySelector("#grid-container");
 const userResize = document.querySelector("#resize-btn");
 const dltCells = document.querySelector("#dlt-cells");
 
+// EVENTOS
 
 userResize.addEventListener("click", () => {
 
@@ -22,13 +25,13 @@ userResize.addEventListener("click", () => {
 
 dltCells.addEventListener("click", () => {
 
-    divContainer.innerHTML = "";
-
     createGrid(40);
 
 })
 
-function createGrid (gridSize) {
+//FUNCIONES
+
+function createGrid(gridSize) {
 
     divContainer.innerHTML = "";
 
