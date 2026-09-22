@@ -21,4 +21,4 @@ Construir una versión web de un Etch-a-Sketch interactivo aplicando:
 
 ## 🚀 Enlace en vivo
 
-_(Próximamente)_
+https://etch-a-sketch-eight-flax.vercel.app/
